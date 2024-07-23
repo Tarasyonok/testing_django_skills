@@ -22,6 +22,6 @@ from running_text import views
 
 urlpatterns = [
     path("", views.index),
-    path("runtext/", views.run_text),
+    path("gettext/", views.run_text),
     path("admin/", admin.site.urls),
 ]
